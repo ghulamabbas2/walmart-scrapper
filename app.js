@@ -25,7 +25,7 @@ mongoose.connect(process.env.DATABASE, {
     useUnifiedTopology : true,
     useCreateIndex : true
 }).then(con => {
-    console.log('Database connected successfully.');
+    console.log('MongoDB Database connected successfully.');
 });
 
 //middleware for session
