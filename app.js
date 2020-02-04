@@ -44,7 +44,7 @@ passport.deserializeUser(User.deserializeUser());
 //middleware for method override
 app.use(methodOverride('_method'));
 
-//middleware flash messages
+//middle ware flash messages
 app.use(flash());
 
 //setting middlware globally
